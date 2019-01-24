@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  retangulo:
+    image: ${DOCKER_REGISTRY-}retangulo
+    build:
+      context: .
+      dockerfile: PrimeiroProjeto\Dockerfile
